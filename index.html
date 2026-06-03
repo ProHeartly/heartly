@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heartly</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <div>
     <div class="screen">
         <div class="grid">
             <div class="card search">
-                <i class="fa-solid fa-magnifying-glass"></i>  
+                <label class="search-label">
+                    <i class="ph-bold ph-magnifying-glass"></i>
+                    <input type="search" placeholder="Search..." class="search-input">
+                </label>
             </div>
-            <div class="card blog">
-
-            </div>
+            <a href="./blog" class="card blog">
+                <h1>Blog</h1>
+                <p>Random posts by me</p>
+            </a>
             <div class="card theme">
-
+                <i class="ph-fill ph-moon"></i>
             </div>
-            <div class="card git">
-
-            </div>
-            <div class="card projects">
-
-            </div>
-            <div class="card gallery">
-
-            </div>
-            <div class="card about">
-
-            </div>
+            <a href="https://github.com/ProHeartly/" target="_blank" rel="noopener" class="card git">
+                <i class="ph-fill ph-github-logo"></i>
+            </a>
+            <a href="./projects" class="card projects">
+                <h1>Very Cool Projects</h1>
+                <p>Cool like me</p>
+            </a>
+            <a href="./gallery" class="card gallery">
+                <h1>Image Gallery</h1>
+                <p>What maybe inside??</p>
+            </a>
+            <a href="./about" class="card about">
+                <h1>About Me</h1>
+                <p>Who is this random guy?</p>
+            </a>
             <div class="card heart">
+                <i class="ph-fill ph-heart heart-pulse"></i>
+                <h1>Heart me</h1>
 
             </div>
-            <div class="card donate">
-
-            </div>
+            <a href="https://hcb.hackclub.com/donations/start/stem-club-of-aroma" target="_blank" rel="noopener" class="card donate">
+                <i class="ph-fill ph-hand-heart"></i>
+            </a>
         </div>
     </div>
 </body>
