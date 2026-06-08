@@ -91,3 +91,8 @@ p {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
+
+.nav-title i {
+    color: var(--text-color);
+    font-size: 3rem;
+}
