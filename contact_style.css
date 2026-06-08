@@ -128,7 +128,7 @@ p {
 }
 
 .a {
-    grid-column: span 4 !important;
+    grid-column: span 4;
 }
 
 @media (max-width: 1024px) {
@@ -147,20 +147,12 @@ p {
     .card {
         min-height: 180px;
         height: 100%;
+        grid-column: span 1;
     }
 
-    .search   { grid-column: span 2; grid-row: 1; }
-    .blog     { grid-column: span 2; grid-row: 1; }
-    
-    .theme    { grid-column: span 1; grid-row: 2; }
-    .git      { grid-column: span 1; grid-row: 2; }
-    .projects { grid-column: span 2; grid-row: 2; }
-    
-    .gallery  { grid-column: span 2; grid-row: 3; }
-    .about    { grid-column: span 2; grid-row: 3; }
-    
-    .heart    { grid-column: span 2; grid-row: 4; }
-    .donate   { grid-column: span 2; grid-row: 4; }
+    .a {
+        grid-column: span 2;
+    }
 }
 
 
@@ -181,9 +173,5 @@ p {
         grid-row: auto !important;
         min-height: 140px;
         height: 100%;
-    }
-
-    .theme, .git {
-        grid-column: span 1 !important;
     }
 }
