@@ -87,54 +87,8 @@ p {
     text-underline-offset: 4px;
 }
 
-.search {
+.joke {
     grid-column: span 2;
-}
-
-.card.search {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 24px 32px;
-}
-
-.search-label {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    cursor: text;
-
-    border: 2px solid transparent; 
-    border-radius: 12px;
-    padding: 14px 18px;
-
-    transition: border-color 0.2 ease;
-}
-
-.search i {
-    font-size: 1.6rem;
-    color: var(--text-color);
-    margin: 0 16px 0 0;
-    flex-shrink: 0;
-}
-
-.search-input {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: var(--text-color);
-    font-size: 22px;
-    width: 100%;
-    padding: 0;
-}
-
-.search-label:focus-within {
-    border-color: var(--text-color);
-}
-
-.search i {
-    font-size: 1.8rem;
-    margin-left: 8px;
 }
 
 .blog {
